@@ -1,0 +1,21 @@
+
+<div class="form-container">
+<span class="success"><?= $sendOk ?></span>
+
+<form method="post" enctype="multipart/form-data">
+
+    <label for="inputFirstname">Prénom <span class="error"><?=$requiredFirstname?></span></label>
+    <input name="formFirstname" id="inputFirstname" type="text" />
+
+    <label for="inputLastname">Nom <span class="error"><?=$requiredLastname?></span></label>
+    <input name="formLastname" id="inputLastname" type="text" />
+
+    <label for="inputEmail">E-mail<span class="error"><?=$requiredEmail?></span></label>
+    <input name="formEmail" id="inputEmail" type="email" />
+    
+    <label for="inputMessage">Message<span class="error"><?=$requiredMessage?></span></label>
+    <textarea name="formMessage" id="inputMessage"></textarea>
+
+    <input type="submit" value="Envoyer" />
+</form>
+</div>

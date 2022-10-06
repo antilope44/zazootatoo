@@ -1,0 +1,13 @@
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #CCC;
+    margin: 1em;
+    padding: 1em;
+}
+.success {
+    color: green;
+}
+.error {
+    color: red;
+}

@@ -1,0 +1,18 @@
+<div class="list-container">
+<?php foreach($users as $user): ?>
+    <div class="user">
+    <div>
+        <h2><?= $animal['name'] ?></h2>
+        <p>
+        <strong>Catégorie</strong>: <?= $animal['category'] ?>
+        <br>
+        <strong>Age</strong>: <?= $animal['age'] ?>
+        <br>
+        <strong>Poids</strong>: <?= $animal['weight'] ?>
+        <br>
+        <strong>Notes</strong>: <?= $animal['notes'] ?>
+        </p>
+    </div>
+    </div>
+<?php endforeach ?>
+</div>
